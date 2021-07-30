@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--blue);
+  color: white;
+  padding: 20px;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header li {
+    padding: 0 10px;
+}

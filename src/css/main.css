@@ -1,0 +1,6 @@
+/* Global */
+@import url('./Global/reset.css');
+@import url('./Global/colors.css');
+
+/* Ladingpage */
+@import url('./ladingpage/header.css');
