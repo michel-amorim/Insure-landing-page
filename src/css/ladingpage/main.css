@@ -1,0 +1,50 @@
+.main-bg {
+  background-color: var(--violet);
+}
+
+.container-main {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 70px 160px 70px;
+  display: flex;
+}
+.main-info h1, p, a {
+  color: var(--white);
+}
+
+.main-info h1::before {
+    content: '';
+    display: block;
+    width: 105px;
+    height: 1px;
+    background: var(--white);
+    margin-bottom: 60px;
+}
+
+.main-info p {
+  margin: 30px 0;
+}
+
+.main-info p {
+  max-width: 42%;
+  line-height: 1.5rem;
+}
+
+.main-absolute {
+    position: absolute;
+    right: 4.9%;
+    top: 17.8%;
+    bottom: 0;
+}
+
+.main-absolute img {
+    width: 100%;
+}

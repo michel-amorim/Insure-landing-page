@@ -1,7 +1,9 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 30px 70px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .header-menu{
@@ -21,5 +23,10 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--dark_grayish_violet);
+    font-weight: 600;
+}
+
+.header-menu ul li a:hover {
+    color: var(--dark_violet);
     font-weight: 600;
 }

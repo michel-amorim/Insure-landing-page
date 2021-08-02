@@ -1,4 +1,4 @@
-.Default {
+.default-dark {
     border: 1px solid var(--dark_violet);
     color: var(--dark_violet);
     font-weight: 600;
@@ -7,9 +7,29 @@
     padding: 15px 30px;
 }
 
-.Default:hover {
+.default-dark:hover {
     background-color: var(--dark_violet);
     color: var(--white);
+    text-transform: uppercase;
+    transition: 0.6s;
+}
+
+.container-default {
+    margin-top: 17px;
+}
+
+.default-white {
+    border: 1px solid var(--white);
+    color: var(--white);
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 30px;
+}
+
+.default-white:hover {
+    background-color: var(--white);
+    color: var(--violet);
     text-transform: uppercase;
     transition: 0.6s;
 }
