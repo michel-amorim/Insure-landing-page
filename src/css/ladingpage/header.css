@@ -8,9 +8,9 @@ header {
     display: flex;
 }
 
-
 .header-menu ul {
     display: flex;
+    margin-right: 30px;
 }
 
 .header-menu ul li {
@@ -21,4 +21,5 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--dark_grayish_violet);
+    font-weight: 600;
 }

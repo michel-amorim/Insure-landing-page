@@ -1,0 +1,11 @@
+/* Global */
+@import url('./global/reset.css');
+@import url('./global/colors.css');
+@import url('./global/global.css');
+
+/* Components */
+@import url('./components/buttons.css');
+@import url('./components/social.css');
+
+/* Ladingpage */
+@import url('./ladingpage/header.css');
