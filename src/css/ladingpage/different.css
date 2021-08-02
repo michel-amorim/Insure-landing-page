@@ -33,5 +33,5 @@
 
 .content-info p {
     color: var(--dark_grayish_violet);
-    padding-right: 75px;
+    max-width: 85%;
 }
