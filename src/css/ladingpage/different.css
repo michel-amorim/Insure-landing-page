@@ -1,0 +1,37 @@
+.different {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 300px 70px;
+}
+
+.different h1 {
+    margin-bottom: 100px;
+    font-weight: 400;
+}
+
+.different h1::before {
+    content: '';
+    display: block;
+    width: 105px;
+    height: 1px;
+    background: var(--dark_grayish_violet);
+    margin-bottom: 60px;
+}
+
+.container-differnte {
+    display: flex;
+}
+
+.different-info {
+   max-width: 33,33%;
+   width: 100%;
+}
+
+.different-info h3 {
+    margin: 20px 0;
+}
+
+.different-info p {
+    color: var(--dark_grayish_violet);
+    padding-right: 75px;
+}

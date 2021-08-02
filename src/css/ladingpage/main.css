@@ -16,7 +16,7 @@
   padding: 100px 70px 160px 70px;
   display: flex;
 }
-.main-info h1, p, a {
+.main-info h1, .main-info p, .main-info a {
   color: var(--white);
 }
 
