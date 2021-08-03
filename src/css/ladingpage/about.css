@@ -1,0 +1,21 @@
+.about-bg {
+    background-color: var(--violet);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.container-about h1 {
+    color: var(--white);
+    max-width: 33%;
+    font-weight: 400;
+}
+
+.container-about {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-default{
+    align-self: center;
+}

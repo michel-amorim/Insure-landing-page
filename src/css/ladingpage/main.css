@@ -12,9 +12,7 @@
 .main-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding: 100px 70px 160px 70px;
-  display: flex;
 }
 .main-info h1, .main-info p, .main-info a {
   color: var(--white);
@@ -41,7 +39,7 @@
 .main-absolute {
     position: absolute;
     right: 4.9%;
-    top: 17.8%;
+    top: 17.2%;
     bottom: 0;
 }
 

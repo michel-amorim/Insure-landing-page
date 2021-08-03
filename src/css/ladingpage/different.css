@@ -1,7 +1,7 @@
 .different {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 300px 70px;
+    padding: 300px 0 200px 0;
 }
 
 .different h1 {
@@ -22,9 +22,9 @@
     display: flex;
 }
 
-.different-info {
-   max-width: 33,33%;
-   width: 100%;
+.content-info {
+   width: 34%;
+   max-width: 100%;
 }
 
 .content-info h3 {
@@ -33,5 +33,6 @@
 
 .content-info p {
     color: var(--dark_grayish_violet);
-    max-width: 85%;
+    max-width: 80%;
+    line-height: 1.4rem;
 }
