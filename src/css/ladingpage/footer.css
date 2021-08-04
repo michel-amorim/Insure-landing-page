@@ -4,8 +4,7 @@ footer {
 
 .container-footer {
     max-width: 1440px;
-    margin: 0 auto;
-    padding: 100px 70px;
+    margin: 100px 200px;
 }
 
 .midias-flex {
@@ -20,7 +19,7 @@ footer {
 }
 
 .social-icons li a {
-    margin-left: 1rem;
+    margin-left: 1.5rem;
 }
 
 .contaier-info-footer{
@@ -52,7 +51,6 @@ footer {
 
 .content-info-footer nav ul li a:hover {
     text-decoration: underline;
-
 }
 
 

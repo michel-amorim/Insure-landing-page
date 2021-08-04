@@ -1,7 +1,6 @@
 .different {
     max-width: 1440px;
-    margin: 0 auto;
-    padding: 300px 70px 200px 70px;
+    margin: 200px 200px;
 }
 
 .different h1 {
@@ -19,13 +18,9 @@
 }
 
 .container-differnte {
-    display: flex;
-}
-
-.content-info {
-   width: 34%;
-   max-width: 100%;
-   margin-left: 50px;
+    display: grid;
+    gap: 10%;
+    grid-template-columns: repeat(3, 1fr)
 }
 
 .content-info h3 {
@@ -34,6 +29,5 @@
 
 .content-info p {
     color: var(--dark_grayish_violet);
-    max-width: 80%;
     line-height: 1.4rem;
 }
