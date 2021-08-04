@@ -4,7 +4,8 @@ footer {
 
 .container-footer {
     max-width: 1440px;
-    margin: 100px 200px;
+    margin: 100px auto;
+    padding: 0 70px;
 }
 
 .midias-flex {
@@ -52,5 +53,14 @@ footer {
 .content-info-footer nav ul li a:hover {
     text-decoration: underline;
 }
+
+@media (max-width:1024px) {
+    .container-footer {
+        max-width: 1440px;
+        margin: 100px auto;
+        padding: 0 40px;
+    }
+}
+
 
 

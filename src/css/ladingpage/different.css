@@ -1,6 +1,7 @@
 .different {
     max-width: 1440px;
-    margin: 200px 200px;
+    margin: 200px auto;
+    padding: 0 70px;
 }
 
 .different h1 {
@@ -30,4 +31,11 @@
 .content-info p {
     color: var(--dark_grayish_violet);
     line-height: 1.4rem;
+}
+
+
+@media (max-width:1024px) {
+    .different {
+        padding: 0 40px;
+    }
 }

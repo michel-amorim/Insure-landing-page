@@ -1,9 +1,9 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 30px 0;
+    padding: 30px 70px;
     max-width: 1440px;
-    margin: 0 200px;
+    margin: 0 auto;
 }
 
 .header-menu{
@@ -29,4 +29,14 @@ header {
 .header-menu ul li a:hover {
     color: var(--dark_violet);
     font-weight: 600;
+}
+
+@media (max-width:1024px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 40px;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
 }
