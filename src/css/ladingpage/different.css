@@ -39,3 +39,21 @@
         padding: 0 40px;
     }
 }
+
+@media (max-width:1023px) {
+    .different h1 {
+        text-align: center;
+    }
+    .container-differnte {
+        display: flex;
+        flex-direction: column;
+    }
+    .content-info {
+        text-align: center;
+    }
+    .content-info p {
+        padding: 0 170px;
+    }
+
+    
+}

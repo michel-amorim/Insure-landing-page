@@ -16,6 +16,7 @@
 
 .container-default {
     margin-top: 17px;
+    z-index: 2;
 }
 
 .default-white {

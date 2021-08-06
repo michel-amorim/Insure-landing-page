@@ -24,6 +24,7 @@
 
 .about-default{
     align-self: center;
+    z-index: 2;
 }
 
 @media (max-width:1024px) {
