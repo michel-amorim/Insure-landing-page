@@ -19,6 +19,15 @@
     z-index: 2;
 }
 
+.default-white-about {
+    border: 1px solid var(--white);
+    color: var(--white);
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 30px;
+}
+
 .default-white {
     border: 1px solid var(--white);
     color: var(--white);

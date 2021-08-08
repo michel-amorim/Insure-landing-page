@@ -10,18 +10,28 @@
 </head>
 
 <body>
-  <header>
+
+  <input id= "close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
+  <header class="menu">
+
+    
+    
     <div class="header-logo">
-      <img src="/src/assets/images/logo.svg" />
+      <a onclick="getElementById('close-menu').checked = false ;" href="#home" >
+        <img  src="/src/assets/images/logo.svg" />
+      </a>
     </div>
 
     <nav class="header-menu">
-      <ul>
+
+      <ul onclick="getElementById('close-menu').checked = false ;">
         <li>
-          <a href="#">how we work</a>
+          <a href="">how we work</a>
         </li>
         <li>
-          <a href="#">blog</a>
+          <a href="#"">blog</a>
         </li>
         <li>
           <a href="#">accont</a>
@@ -31,10 +41,12 @@
       <div>
         <a class="default-dark" href="#">view plans</a>
       </div>
+
     </nav>
+
   </header>
 
-  <main class="main-bg">
+  <main id="home" class="main-bg">
     <div class="intro-rigth-absolute">
       <img src="/src/assets/images/bg-pattern-intro-right-desktop.svg">
     </div>
@@ -80,7 +92,7 @@
     </div>
   </main>
 
-  <section class="different">
+  <section id="blog" class="different">
 
     <h1>We're different</h1>
 
@@ -138,14 +150,14 @@
     </div>
   </section>
 
-  <section class="about-bg">
+  <section id="accont" class="about-bg">
     <div class="about-how-absolute">
       <img src="/src/assets/images/bg-pattern-how-we-work-desktop.svg">
     </div>
     <div class="container-about">
       <h2>Find out more about how we work</h2>
       <div class="about-default">
-        <a class="default-white" href="#">how we work</a>
+        <a class="default-white-about" href="#">how we work</a>
       </div>
     </div>
   </section>
