@@ -6,6 +6,10 @@
   position: relative;
 }
 
+.about-how-absolute-mobile {
+  display: none;
+}
+
 .about-how-absolute {
   position: absolute;
   top: 0;
@@ -29,7 +33,7 @@
 
 @media (max-width: 1024px) {
   .about-bg {
-    padding: 65px 40px;
+    padding: 71px 40px;
   }
 }
 
@@ -37,6 +41,14 @@
   .about-how-absolute {
     display: none;
   }
+
+  .about-how-absolute-mobile {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
   .container-about {
     display: flex;
     flex-direction: column;

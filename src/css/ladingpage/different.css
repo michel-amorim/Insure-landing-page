@@ -4,12 +4,13 @@
   padding: 0 70px;
 }
 
-.different h1 {
+.different h2 {
+  font-size: 3rem;
   margin-bottom: 100px;
   font-weight: 400;
 }
 
-.different h1::before {
+.different h2::before {
   content: "";
   display: block;
   width: 105px;
@@ -43,7 +44,7 @@
   .different {
     margin: 150px auto 50px auto;
   }
-  .different h1 {
+  .different h2 {
     text-align: center;
     margin-bottom: 40px;
   }
@@ -58,7 +59,7 @@
   .content-info p {
     padding: 0 170px;
   }
-  .different h1::before {
+  .different h2::before {
     content: "";
     display: block;
     position: absolute;
