@@ -9,7 +9,7 @@
 
 Layout do site de desafios [Frontend Mentor](https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8).
 
-A aplicação consiste em uma Landing-page, onde é possivel ter a primeira abordagem com o serviço fornecido.
+A aplicação consiste em uma Landing-page, onde é possivel ter o primeiro contato com o serviço fornecido.
 
 ## Layout web
 ![Visualização do design Web](./design/desktop-preview.jpg)
