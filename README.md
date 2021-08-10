@@ -32,7 +32,7 @@ Michel Silva
 
 
 
-<a href="https://mail.google.com/mail/u/0/#inbox" target="blank"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin"/></a> <a href="https://www.linkedin.com/in/michel-silva-aa0663162/" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin"/></a>
+<a href="https://mail.google.com/mail/u/0/#inbox" target="blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="GMAIL"/></a> <a href="https://www.linkedin.com/in/michel-silva-aa0663162/" target="blank"><img  src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LINKEDIN"/></a>
 
 
 
