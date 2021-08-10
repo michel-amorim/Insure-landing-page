@@ -5,7 +5,7 @@
 
 ## Sobre o projeto
 
-Insure é uma aplicação Frontend web e mobile contruída por mim, com intuito de treinar minhas habilidades HTML e CSS.
+*Insure* é uma aplicação Frontend web e mobile contruída por mim, com intuito de treinar minhas habilidades HTML e CSS.
 
 Layout do site de desafios [Frontend Mentor](https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8).
 
