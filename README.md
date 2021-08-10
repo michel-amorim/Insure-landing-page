@@ -30,6 +30,8 @@ A aplicação consiste em uma Landing-page, onde é possivel ter a primeira abor
 
 Michel Silva
 
+
+
 <a href="https://www.linkedin.com/in/michel-silva-aa0663162/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin" height="30" width="40" /></a>
 
 
