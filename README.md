@@ -3,7 +3,7 @@
 # INSURE
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/michel-amorim/Insure-landing-page/blob/master/LICENSE) 
 
-# Sobre o projeto
+## Sobre o projeto
 
 Insure é uma aplicação Frontend web e mobile contruída por mim, com intuito de treinar minhas habilidades HTML e CSS.
 
