@@ -1,7 +1,7 @@
 /* Global */
-@import url('./global/reset.css');
-@import url('./global/colors.css');
-@import url('./global/global.css');
+@import url('./Global/reset.css');
+@import url('./Global/colors.css');
+@import url('./Global/global.css');
 
 /* Components */
 @import url('./components/buttons.css');
@@ -9,7 +9,7 @@
 
 /* Ladingpage */
 @import url('./ladingpage/header.css');
-@import url('/src/css/ladingpage/main.css');
-@import url('/src/css/ladingpage/different.css');
-@import url('/src/css/ladingpage/about.css');
-@import url('/src/css/ladingpage/footer.css');
+@import url('./ladingpage/main.css');
+@import url('./ladingpage/different.css');
+@import url('./ladingpage/about.css');
+@import url('./ladingpage/footer.css');

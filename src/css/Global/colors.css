@@ -1,19 +1,7 @@
 :root {
     --dark_violet: hsl(270, 9%, 17%);
-}
-
-:root {
     --violet: hsl(256, 26%, 20%);
-}
-
-:root {
-    --dark_grayish_violet: hsl(273, 4%, 51%);
-}
-
-:root {
+    --dark-grayish-violet: hsl(273, 4%, 51%);
     --grayish_Blue: hsl(216, 30%, 68%);
-}
-
-:root {
     --white: hsl(0, 0%, 98%);
 }
