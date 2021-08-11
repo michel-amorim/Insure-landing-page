@@ -16,7 +16,7 @@ footer {
   z-index: 1;
 }
 
-.bg-footer-mobile{
+.bg-footer-mobile {
   display: none;
 }
 
@@ -73,24 +73,26 @@ footer {
 @media (max-width: 1024px) {
   .container-footer {
     max-width: 1440px;
-    margin: 100px auto;
-    padding: 0 40px;
+    margin: 50px auto;
+    padding: 50px 40px;
   }
 }
 
 @media (max-width: 1023px) {
   .bg-footer {
-   display: none;
+    display: none;
   }
-  
-  .bg-footer-mobile{
+  .bg-footer-mobile {
     display: block;
     position: absolute;
+  }
+  .bg-footer-mobile {
+    width: 100%;
   }
   .container-footer {
     max-width: 1440px;
     margin: 0;
-    padding: 140px 40px;
+    padding: 100px 40px;
   }
   .midias-flex {
     flex-direction: column;
