@@ -15,7 +15,7 @@
   display: block;
   width: 105px;
   height: 1px;
-  background: var(--dark_grayish_violet);
+  background: var(--dark-grayish-violet);
   margin-bottom: 60px;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .content-info p {
-  color: var(--dark_grayish_violet);
+  color: var(--dark-grayish-violet);
   line-height: 1.4rem;
 }
 

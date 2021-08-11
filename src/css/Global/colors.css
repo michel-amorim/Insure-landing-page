@@ -1,7 +1,7 @@
 :root {
-    --dark_violet: hsl(270, 9%, 17%);
+    --dark-violet: hsl(270, 9%, 17%);
     --violet: hsl(256, 26%, 20%);
     --dark-grayish-violet: hsl(273, 4%, 51%);
-    --grayish_Blue: hsl(216, 30%, 68%);
+    --grayish-Blue: hsl(216, 30%, 68%);
     --white: hsl(0, 0%, 98%);
 }
