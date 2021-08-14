@@ -8,8 +8,8 @@
 @import url('./components/social.css');
 
 /* Ladingpage */
-@import url('./ladingpage/header.css');
-@import url('./ladingpage/main.css');
-@import url('./ladingpage/different.css');
-@import url('./ladingpage/about.css');
-@import url('./ladingpage/footer.css');
+@import url('./ladingpage/0.header.css');
+@import url('./ladingpage/1.main.css');
+@import url('./ladingpage/2.features.css');
+@import url('./ladingpage/3.about.css');
+@import url('./ladingpage/4.footer.css');
