@@ -86,6 +86,9 @@ footer {
     display: block;
     position: absolute;
   }
+  .bg-footer-mobile img{
+    width: 100%;
+  }
   .bg-footer-mobile {
     width: 100%;
   }
