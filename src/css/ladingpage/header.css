@@ -36,7 +36,7 @@
 }
 
 @media (max-width: 1024px) {
-  .menu{
+  .menu {
     padding: 30px 40px;
     max-width: 1440px;
     margin: 0 auto;
@@ -53,12 +53,12 @@
     z-index: 1;
   }
 
-  .header-menu ul li{
+  .header-menu ul li {
     margin-bottom: 30px;
   }
 
-  .header-menu ul, 
-  .header-menu{
+  .header-menu ul,
+  .header-menu {
     flex-direction: column;
   }
 
@@ -68,7 +68,7 @@
 
   .header-menu {
     height: 100vh;
-    background-color:var(--white);
+    background-color: var(--white);
   }
 
   .close-menu-label::after {

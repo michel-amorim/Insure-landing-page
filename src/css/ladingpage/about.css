@@ -63,9 +63,8 @@
   }
 }
 
-
-@media (max-width: 500px){
-.container-about h2 {
-  max-width: 90%;
-}
+@media (max-width: 500px) {
+  .container-about h2 {
+    max-width: 90%;
+  }
 }
