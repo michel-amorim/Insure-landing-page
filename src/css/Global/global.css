@@ -38,4 +38,6 @@ a {
 
 label {
     cursor: default;
+    position: relative;
+    z-index: 5;
 }

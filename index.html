@@ -16,33 +16,34 @@
 
   <header class="menu">
 
-
-
     <div class="header-logo">
-      <a onclick="getElementById('close-menu').checked = false ;" href="#home">
+      <a class="brand" onclick="getElementById('close-menu').checked = false ;" href="#home">
         <img src="/src/assets/images/logo.svg" />
       </a>
     </div>
 
     <nav class="header-menu">
 
-      <ul onclick="getElementById('close-menu').checked = false ;">
-        <li>
-          <a href="">how we work</a>
-        </li>
-        <li>
-          <a href="#"">blog</a>
+      <div class="mobile-menu">
+        <ul onclick="getElementById('close-menu').checked = false ;">
+          <li>
+            <a href="">how we work</a>
+          </li>
+          <li>
+            <a href="#"">blog</a>
         </li>
         <li>
           <a href=" #">accont</a>
-        </li>
-      </ul>
-
-      <div>
-        <a class="default-dark" href="#">view plans</a>
-      </div>
-
+          </li>
+        <div>
+          <a class="default-dark" href="#">view plans</a>
+        </div>
+        <div class="bg-menu-mobile">
+          <img src="src/assets/images/bg-pattern-mobile-nav.svg">
+        </div>
+        </ul>
     </nav>
+    </div>
 
   </header>
 
@@ -50,8 +51,6 @@
     <div class="intro-rigth-absolute">
       <img src="/src/assets/images/bg-pattern-intro-right-desktop.svg">
     </div>
-
-
 
     <div class="main-photo-absolute-mobile">
       <img src="/src/assets/images/image-intro-mobile.jpg">
