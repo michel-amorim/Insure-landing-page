@@ -1,85 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Insure landing page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/icons/favicon-32x32.png" />
+  <link rel="stylesheet" href="./src/css/app.css" />
+  <title>Insure</title>
 </head>
+
 <body>
 
-  How we work
-  Blog
-  Account
-  View plans
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
 
-  Humanizing your insurance.
+  <header class="menu">
 
-  Get your life insurance coverage easier and faster. We blend our expertise 
-  and technology to help you find the plan that’s right for you. Ensure you 
-  and your loved ones are protected.
+    <div class="header-logo">
+      <a class="brand" onclick="getElementById('close-menu').checked = false ;" href="#home">
+        <img src="/src/assets/images/logo.svg" />
+      </a>
+    </div>
 
-  View plans
+    <nav class="header-menu">
 
-  We’re different
+      <div class="mobile-menu">
+        <ul onclick="getElementById('close-menu').checked = false ;">
+          <li>
+            <a href="">how we work</a>
+          </li>
+          <li>
+            <a href="#"">blog</a>
+        </li>
+        <li>
+          <a href=" #">accont</a>
+          </li>
+        <div>
+          <a class="default-dark" href="#">view plans</a>
+        </div>
+        <div class="bg-menu-mobile">
+          <img src="src/assets/images/bg-pattern-mobile-nav.svg">
+        </div>
+        </ul>
+    </nav>
+    </div>
 
-  Snappy Process
+  </header>
 
-  Our application process can be completed in minutes, not hours. Don’t get 
-  stuck filling in tedious forms.
+  <main id="home" class="main-bg">
+    <div class="intro-rigth-absolute">
+      <img src="/src/assets/images/bg-pattern-intro-right-desktop.svg">
+    </div>
 
-  Affordable Prices
+    <div class="main-photo-absolute-mobile">
+      <img src="/src/assets/images/image-intro-mobile.jpg">
+    </div>
 
-  We don’t want you worrying about high monthly costs. Our prices may be low, 
-  but we still offer the best coverage possible.
+    <div class="intro-left-absolute">
+      <img src="/src/assets/images/bg-pattern-intro-left-desktop.svg">
+    </div>
 
-  People First
+    <div class="intro-left-absolute-mobile">
+      <img src="src/assets/images/bg-pattern-intro-left-mobile.svg">
+    </div>
 
-  Our plans aren’t full of conditions and clauses to prevent payouts. We make 
-  sure you’re covered when you need it.
+    <div class="intro-rigth-absolute-mobile">
+      <img src="/src/assets/images/bg-pattern-intro-right-mobile.svg">
+    </div>
 
-  Find out more about how we work
+    <div class="container-main">
+      <div class="main-info">
 
-  How we work
+        <h1>
+          Humanizing <br />
+          your insurance.
+        </h1>
 
-  Our company
+        <div class="main-p">
+          <p>
+            Get your life insurance coverage easier and faster. We blend our
+            expertise and technology to help you find the plan that's right
+            for you. Ensure you and your loved ones are protecten.
+          </p>
+        </div>
 
-  How we work
-  Why Insure?
-  View plans
-  Reviews
+        <div class="container-default">
+          <a class="default-white" href="#">view plans</a>
+        </div>
+      </div>
 
-  Help me
 
-  FAQ
-  Terms of use
-  Privacy policy
-  Cookies
 
-  Contact
+      <div class="main-photo-absolute">
+        <img src="/src/assets/images/image-intro-desktop.jpg" alt="one kid, one men, one woman and one baby kid gril" />
+      </div>
 
-  Sales
-  Support
-  Live chat
 
-  Others
+    </div>
+  </main>
 
-  Careers
-  Press
-  Licenses
+  <section class="different">
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <h2>We're different</h2>
+
+    <div class="container-differnte">
+
+      <div class="content-info">
+
+        <div class="different-icon">
+          <img src="/src/assets/icons/icon-snappy-process.svg" />
+        </div>
+
+
+
+        <div class="different-info">
+          <h3>Snappy process</h3>
+          <p>
+            Our application process can be completed in minutes, not hours,
+            Don't get stuck filling in tedious forms.
+          </p>
+        </div>
+      </div>
+
+      <div class="content-info">
+
+        <div class="different-icon">
+          <img src="/src/assets/icons/icon-affordable-prices.svg" />
+        </div>
+
+
+        <div class="different-info">
+          <h3>Affordable Prices </h3>
+          <p>
+            We don't want you worrying about high monthly costs. Our prices may be low, but we still offer the best
+            converage possible.
+          </p>
+        </div>
+      </div>
+
+      <div class="content-info">
+
+        <div class="different-icon">
+          <img src="/src/assets/icons/icon-people-first.svg" />
+        </div>
+
+
+        <div class="different-info">
+          <h3>People First </h3>
+          <p>
+            Our plans aren't full of conditions and clauses to prevent payouts. We make sure you're covered when you
+            nedd it.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="about-bg">
+    <div class="about-how-absolute">
+      <img src="/src/assets/images/bg-pattern-how-we-work-desktop.svg">
+    </div>
+    <div class="about-how-absolute-mobile">
+      <img src="/src/assets/images/bg-pattern-how-we-work-mobile.svg">
+    </div>
+    <div class="container-about">
+      <h2>Find out more about how we work</h2>
+      <div class="about-default">
+        <a class="default-white-about" href="#">how we work</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="bg-footer-mobile">
+      <img src="/src/assets/images/bg-pattern-footer-mobile.svg">
+    </div>
+    <div class="bg-footer">
+      <img src="/src/assets/images/bg-pattern-footer-desktop.svg">
+    </div>
+
+    <div class="container-footer">
+
+      <div class="border-footer">
+        <div class="midias-flex">
+
+          <div class="footer-img">
+            <img src="/src/assets/images/logo.svg">
+          </div>
+          <nav>
+            <ul class="social-icons">
+              <li><a href="#" target="_blank"><img src="/src/assets/icons/icon-facebook.svg" alt="facebook"></a></li>
+              <li><a href="#" target="_blank"><img src="/src/assets/icons/icon-twitter.svg" alt="twitter"></a></li>
+              <li><a href="#" target="_blank"><img src="/src/assets/icons/icon-pinterest.svg" alt="pinterest"></a></li>
+              <li><a href="#" target="_blank"><img src="/src/assets/icons/icon-instagram.svg" alt="instagram"></img></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="contaier-info-footer">
+        <div class="content-info-footer">
+          <h4>our company</h4>
+          <nav>
+            <ul>
+              <li><a href="#">how we work</a></li>
+              <li><a href="#">why insure?</a></li>
+              <li><a href="#">wiew plans</a></li>
+              <li><a href="#">reviews</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="content-info-footer">
+          <h4>help me</h4>
+          <nav>
+            <ul>
+              <li><a href="#">faq </a></li>
+              <li><a href="#">terms of use</a></li>
+              <li><a href="#">privacy polocy</a></li>
+              <li><a href="#">cookies</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="content-info-footer">
+          <h4>contact</h4>
+          <nav>
+            <ul>
+              <li><a href="#">sales</a></li>
+              <li><a href="#">support</a></li>
+              <li><a href="#">live chat</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="content-info-footer">
+          <h4>others</h4>
+          <nav>
+            <ul>
+              <li><a href="#">careers</a></li>
+              <li><a href="#">press</a></li>
+              <li><a href="#">licenses</a></li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>

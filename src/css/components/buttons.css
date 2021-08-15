@@ -1,0 +1,52 @@
+.default-dark {
+  border: 1px solid var(--dark-violet);
+  color: var(--dark-violet);
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 30px;
+}
+
+.default-dark:hover {
+  background-color: var(--dark-violet);
+  color: var(--white);
+  text-transform: uppercase;
+  transition: 0.6s;
+}
+
+.container-default {
+  margin-top: 17px;
+  z-index: 2;
+}
+
+.default-white-about {
+  border: 1px solid var(--white);
+  color: var(--white);
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 30px;
+}
+
+.default-white-about:hover {
+  background-color: var(--white);
+  color: var(--violet);
+  text-transform: uppercase;
+  transition: 0.6s;
+}
+
+.default-white {
+  border: 1px solid var(--white);
+  color: var(--white);
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+}
+
+.default-white:hover {
+  background-color: var(--white);
+  color: var(--violet);
+  text-transform: uppercase;
+  transition: 0.6s;
+}
