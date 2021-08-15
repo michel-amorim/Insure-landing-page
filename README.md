@@ -1,6 +1,7 @@
-
-
 # INSURE
+
+https://modest-mahavira-3d9b78.netlify.app/
+
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/michel-amorim/Insure-landing-page/blob/master/LICENSE) 
 
 ## Sobre o projeto
@@ -12,7 +13,7 @@ Layout do site de desafios [Frontend Mentor](https://www.frontendmentor.io/chall
 A aplicação consiste em uma Landing-page, onde é possivel ter o primeiro contato com o serviço fornecido.
 
 ## Layout web
-![Visualização do design Web](./design/desktop-preview.jpg)
+![Visualização do design Web](./doc/design/desktop-preview.jpg)
 ##
 
 # Tecnologias utilizadas
@@ -35,4 +36,4 @@ A aplicação consiste em uma Landing-page, onde é possivel ter o primeiro cont
 
 ##
 
-### Michel Amorim
+#### *Michel Amorim*
