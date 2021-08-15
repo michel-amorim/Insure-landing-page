@@ -10,7 +10,7 @@
   display: none;
 }
 
-.bg-menu-mobile{
+.bg-menu-mobile {
   display: none;
 }
 
@@ -56,10 +56,8 @@
   }
   .header-menu {
     display: block;
-    width: 100%;
     height: 100vh;
     background-color: var(--dark-violet);
-    position: absolute;
   }
 
   .header-logo {
@@ -78,6 +76,11 @@
     position: absolute;
     bottom: 0;
     left: 0;
+    right: 0;
+  }
+
+  .bg-menu-mobile img {
+    width: 100%;
   }
 
   .header-menu ul,
@@ -101,7 +104,6 @@
   .close-menu-label::after {
     content: "≡";
     position: fixed;
-    z-index: 2;
     top: 0;
     right: 0;
     font-size: 3rem;
@@ -117,7 +119,7 @@
   .close-menu:checked ~ .close-menu-label::after {
     content: "×";
   }
-  
+
   label {
     position: relative;
     z-index: 5;
