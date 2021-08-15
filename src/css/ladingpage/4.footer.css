@@ -35,7 +35,7 @@ footer {
 }
 
 .social-icons li a {
-  margin-left: 1.5rem;
+  margin:0 1rem;
 }
 
 .contaier-info-footer {
@@ -95,7 +95,7 @@ footer {
   .container-footer {
     max-width: 1440px;
     margin: 0;
-    padding: 100px 40px;
+    padding: 100px 40px 50px 40px;
   }
   .midias-flex {
     flex-direction: column;
@@ -119,6 +119,6 @@ footer {
   .contaier-info-footer {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 0;
   }
 }
