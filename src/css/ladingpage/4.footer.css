@@ -35,7 +35,11 @@ footer {
 }
 
 .social-icons li a {
-  margin:0 1rem;
+  margin:0 0.7rem;
+}
+
+.footer-img, .social-icons li a i {
+  padding: 10px;
 }
 
 .contaier-info-footer {
@@ -63,7 +67,6 @@ footer {
 .content-info-footer nav ul li a {
   color: var(--dark-violet);
   font-weight: 600;
-  font-size: 1rem;
 }
 
 .content-info-footer nav ul li a:hover {
@@ -100,9 +103,6 @@ footer {
   .midias-flex {
     flex-direction: column;
     align-items: center;
-  }
-  .footer-img {
-    margin-bottom: 20px;
   }
   .contaier-info-footer {
     display: grid;

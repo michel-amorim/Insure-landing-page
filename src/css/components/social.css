@@ -1,21 +1,28 @@
-
-.facebook, .github, .instagram, .linkedin {
-    font-size: 1.5rem;
-    color: #837D88;
+.facebook,
+.github,
+.instagram,
+.linkedin {
+  font-size: 1.5rem;
+  color: #837d88;
 }
-
+.facebook:hover,
+.github:hover,
+.instagram:hover,
+.linkedin:hover {
+  transition: 0.5s;
+}
 .facebook:hover {
-    color: #4267B2;
+  color: #4267b2;
 }
 
 .github:hover {
-     color:#222222;
+  color: #222222;
 }
 
 .linkedin:hover {
-    color: #0274B3;
+  color: #0274b3;
 }
 
 .instagram:hover {
-    color: purple;
+  color: #c8296d;
 }
