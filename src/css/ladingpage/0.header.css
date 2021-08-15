@@ -121,7 +121,9 @@
   }
 
   label {
-    position: relative;
+    position: absolute;
     z-index: 5;
+    right: 0;
+    transform: translatex(-16px);
   }
 }
