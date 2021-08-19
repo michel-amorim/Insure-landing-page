@@ -35,9 +35,3 @@ p {
 a {
     text-decoration: none;
 }
-
-label {
-    cursor: default;
-    position: relative;
-    z-index: 5;
-}
